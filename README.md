@@ -1,22 +1,12 @@
 # projeto-so
 Projeto de processos, memória compartilhada e sincronização
 
+# What is it?
 
-### Como clonar o projeto pra utilizar e fazer updates:
+Definimos uma função **unroll** que recebe uma matriz(LxN) de valores, **args**; uma função, **func**, que deve ser chamada em paralelo; uma lista de retornos, **results**, que deve ser usado para armazenar os retornos da função *func*, se existirem; um parâmetro, **method**, que é usado para indicar o tipo de implementação paralela que será usada. Cada linha, *l*, da matriz args representa uma chamada de *func*. Os parâmetros de cada chamada de func serão os elementos das linhas da matriz *args*, quando *func* retorna alguma coisa, esse retorno deve ser armazenado na lista *results*. O Parâmetro *method* indica se *unroll* irá implementar o paralelismo das chamadas de *func* usando threads.
 
-```bash
-git clone [link]
-```
-### Na pasta do projeto, quando modificar algo ou add algum arquivo, faça:
+Além disso, implementamos um programa sequencial para calcular as mesmas operações em matrizes que foram realizadas pelo programa paralelo. Adicionamos ao programa paralelo e ao sequencial uma biblioteca do *python* chamada **time** para calcular o tempo de execução das chamadas de função em paralela e das sequenciais para comparar.
 
-```bash
-git add . # adiciona todos os arquivos modificados
-git commit -m "algum comentario aqui" # commita pro servidor comentado
-git push origin master # sobe pro git os arquivos/projeto modifciados por vc
-```
-### Caso eu mexa e commite, pra baixar/ atualizar o projeto é só usar o seguinte comando:
+Feito isso, geramos um gráfico com o tempo de execução de determinados tamanhos de matrizes da sequencial e da thread (execução em paralelo).
 
-```bash
-git pull origin master
-```
-
+É possível ver os gráficos de demais comentários no relatório [aqui.](https://docs.google.com/document/d/1G9IJ7R0-e910tZOYGsLDwndf7WHOZGaDABPCzTYLszU/)
