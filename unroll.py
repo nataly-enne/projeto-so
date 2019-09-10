@@ -27,8 +27,9 @@ time.time
 #     for i in range(len(matriz1)):   
 #         result.append([])
 #         for j in range(len(matriz1[0])):
+#             result[i].append([])
 #             for k in range(matriz1[0]):
-#                 result[i].append(matriz1[i][k] * matriz2[k][j])
+#                 result[i].[j] = (matriz1[i][k] * matriz2[k][j])
 #     return result
 
 
