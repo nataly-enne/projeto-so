@@ -7,7 +7,7 @@ import time
 
 time.time
 
-# def somarMatrizes(matriz1, matriz2):
+# def sumMatriz(matriz1, matriz2):
 #     if(len(matriz1) != len(matriz2) or len(matriz1[0]) != len(matriz2[0])):
 #         return None
 #     result = []
@@ -17,8 +17,20 @@ time.time
 #             result[i].append(matriz1[i][j] + matriz2[i][j])
 #     return result
 
-# def somarElemento(i, j):
+# def sumElement(i, j):
 # 	matriz3[i][j].append(matriz1[i][j] + matriz2[i][j])
+
+# def prodMatriz(matriz1,matriz2):
+#     if(len(matriz1) != len(matriz2) or len(matriz1[0]) != len(matriz2[0])):
+#         return None
+#     result = []
+#     for i in range(len(matriz1)):   
+#         result.append([])
+#         for j in range(len(matriz1[0])):
+#             for k in range(matriz1[0]):
+#                 result[i].append(matriz1[i][k] * matriz2[k][j])
+#     return result
+
 
 def func (matriz1, matriz2, i, j, method, op, result):
     if method == 'thread':
@@ -39,12 +51,12 @@ def unroll(args, method, op, results):
         
 
 def get_columns(matriz, c):
-    coluna = [0 for i in range(len(matriz))]
+    columns = [0 for i in range(len(matriz))]
     
     for i in range(len(matriz[0])):
-        coluna[i] = matriz[i][c]
+        columns[i] = matriz[i][c]
     
-    return coluna
+    return columns
 
 ## gerando args de soma
 def get_sum_args():
@@ -103,7 +115,7 @@ time_after -= time_before
 
 print_matriz(matriz_randomica1, SIZE, "Matriz 1:")
 print_matriz(matriz_randomica2, SIZE, "Matriz 2:")
-print_matriz(results[0][0], SIZE * SIZE, "Resultado da soma [THREADS]:")
-print_matriz(results[1][0], SIZE * SIZE, "Resultado da multiplicação [THREADS]:")
+print_matriz(results[0][0], SIZE * SIZE, "Matriz Sum - THREADS:")
+print_matriz(results[1][0], SIZE * SIZE, "Matriz Product - THREADS:")
 
 print(time_after)
