@@ -9,4 +9,27 @@ Além disso, implementamos um programa sequencial para calcular as mesmas opera�
 
 Feito isso, geramos um gráfico com o tempo de execução de determinados tamanhos de matrizes da sequencial e da thread (execução em paralelo).
 
-É possível ver os gráficos de demais comentários no relatório [aqui.](https://docs.google.com/document/d/1G9IJ7R0-e910tZOYGsLDwndf7WHOZGaDABPCzTYLszU/)
+É possível ver os gráficos e demais comentários no relatório [aqui.](https://docs.google.com/document/d/1G9IJ7R0-e910tZOYGsLDwndf7WHOZGaDABPCzTYLszU/)
+
+
+## Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/nataly-enne">
+        <img src="https://avatars3.githubusercontent.com/u/26802307?s=400&v=4" width="100px;" alt="Nátaly Enne"/>
+        <br />
+        <sub><b>Nátaly Enne</b></sub>
+      </a><br />
+      <a href="https://github.com/nataly-enne/projeto-so/commits?author=nataly-enne" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Vanz5">
+        <img src="https://avatars2.githubusercontent.com/u/36575665?s=400&v=4" width="100px;" alt="Van Allem"/>
+        <br />
+        <sub><b>Van Allem</b></sub>
+      </a><br />
+      <a href="https://github.com/nataly-enne/projeto-so/commits?author=Vanz5" title="Code">💻</a>
+    </td>
+  </tr>
+</table>
