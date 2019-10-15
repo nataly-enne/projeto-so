@@ -9,7 +9,7 @@ Além disso, implementamos um programa sequencial para calcular as mesmas opera�
 
 Feito isso, geramos um gráfico com o tempo de execução de determinados tamanhos de matrizes da sequencial e da thread (execução em paralelo).
 
-É possível ver os gráficos e demais comentários no relatório [aqui.](https://docs.google.com/document/d/1G9IJ7R0-e910tZOYGsLDwndf7WHOZGaDABPCzTYLszU/)
+É possível ver os gráficos e demais comentários no relatório [aqui.](https://docs.google.com/document/d/1G9IJ7R0-e910tZOYGsLDwndf7WHOZGaDABPCzTYLszU/edit?usp=sharing)
 
 
 ## Colaboradores
